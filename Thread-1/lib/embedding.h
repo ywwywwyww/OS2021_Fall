@@ -13,7 +13,7 @@ enum EMBEDDING_ERROR {
 
 class Embedding{
 public:
-    Embedding() {}
+    Embedding(): data{0} {}
     Embedding(int);  // Random init an embedding
     Embedding(int, double*);
     Embedding(int, std::string);
